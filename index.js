@@ -1,3 +1,4 @@
+if (typeof window === "undefined") return;
 (function flexible (window, document) {
   var docEl = document.documentElement
   var dpr = window.devicePixelRatio || 1
